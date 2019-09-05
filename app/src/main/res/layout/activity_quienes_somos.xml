@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cuadrado"
+    >
+
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="match_parent"
+        android:layout_height="302dp"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/quines" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:text="Computer Desarrollos Informáticos, S.L., es una compañía de Servicios informáticos que cuenta con una dilatada experiencia, se fundó en el año 1983.
+
+Somos una empresa especializada en el software sectorial, que lo personalizamos, hasta ajustarlo a la medida de nuestros clientes. Situados en Mollet del Valles (Barcelona), trabajamos a nivel nacional, tenemos clientes en Portugal, Brasil, y en casi todos los países de habla hispana.
+
+Realizamos todo el proceso, desde el estudio de los requisitos, pasando por el análisis, diseño, desarrollo, hasta el posterior mantenimiento del producto software que necesite su empresa.
+
+Nuestras principales plataformas para llevar a cabo la programación son de entorno Windows para aplicaciones de escritorio, y Linux para aplicaciones Web.
+
+En Computer,  pensamos que cada problema tiene una solución, por eso ofrecemos a nuestros clientes una asistencia personalizada, ya sea presencial o mediante conexiónes en remoto."
+        android:textColor="@color/colorPrimary" />
+
+
+
+</LinearLayout>
